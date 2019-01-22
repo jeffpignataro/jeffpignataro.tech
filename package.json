@@ -4,7 +4,8 @@
     "description": "Jeff Pignataro's personal website",
     "main": "gulpfile.js",
     "dependencies": {
-        "bootstrap": "^4.2.1"
+        "bootstrap": "^4.2.1",
+        "minimatch": "^3.0.4"
     },
     "devDependencies": {
         "gulp": "^3.9.1",
