@@ -1,0 +1,12 @@
+{
+    "version": "2.0.0",
+    "tasks": [{
+        "label": "gulp task",
+        "type": "shell",
+        "command": "gulp",
+        "group": "build",
+        "problemMatcher": [
+            "$node-sass"
+        ]
+    }]
+}
