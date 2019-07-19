@@ -2,7 +2,7 @@
 # Created by https://www.gitignore.io/api/node,bower,angular
 # Edit at https://www.gitignore.io/?templates=node,bower,angular
 
-/.vscode/sftp.json
+.vscode
 
 ### Angular ###
 ## Angular ##
