@@ -25,7 +25,7 @@ phases:
       # - command
   post_build:
     commands:
-        - aws s3 sync ./jeffpignataro-tech-p/SourceArti codepipeline-us-east-1-950881025831
+      #  - aws s3 sync ./jeffpignataro-tech-p/SourceArti codepipeline-us-east-1-950881025831
       # - command
 #artifacts:
   #files:
