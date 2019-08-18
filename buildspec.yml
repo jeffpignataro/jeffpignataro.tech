@@ -21,16 +21,16 @@ phases:
       # - command
   build:
     commands:
-      # - command
-      # - command
+      - mkdir dist
+      - cp -R ./web/ dist
   post_build:
-    commands:
-      #  - aws s3 sync ./jeffpignataro-tech-p/SourceArti codepipeline-us-east-1-950881025831
-      # - command
-#artifacts:
-  #files:
-    # - location
-    # - location
+    commands:      
+      - mv dist/**/* ./
+      - mv dist/* ./
+      - rm -R dist *.yml LICENSE README* .git*
+artifacts:
+  files:
+    - '**/*'
   #name: $(date +%Y-%m-%d)
   #discard-paths: yes
   #base-directory: location
