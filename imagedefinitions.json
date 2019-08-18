@@ -1,6 +1,6 @@
 [
     {
-        "name": "jeffpignataro-tech",
-        "imageUri": "nginx"
+        "name": "nginx",
+        "imageUri": "nginx:latest"
     }
 ]
