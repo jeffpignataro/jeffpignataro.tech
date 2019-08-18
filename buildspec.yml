@@ -26,8 +26,9 @@ phases:
   post_build:
     commands:      
       - mv dist/**/* ./
+      - rm -Rd dist/web
       #- mv dist/* ./
-      - rm -R dist dist/web CODE_OF_CONDUCT.md CNAME gulpfile.js *.yml LICENSE README* .git* .vscode*
+      - rm -R dist CODE_OF_CONDUCT.* CNAME* gulpfile.* *.yml LICENSE README* .git* .vscode*
 artifacts:
   files:
     - '**/*'
