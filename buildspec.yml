@@ -27,7 +27,7 @@ phases:
     commands:      
       - mv dist/**/* ./
       #- mv dist/* ./
-      - rm -R dist *.yml LICENSE README* .git*
+      - rm -R dist dist/web CODE_OF_CONDUCT.md CNAME gulpfile.js *.yml LICENSE README* .git* .vscode*
 artifacts:
   files:
     - '**/*'
