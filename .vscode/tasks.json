@@ -1,0 +1,23 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "gulp task",
+            "type": "shell",
+            "command": "gulp",
+            "group": "build",
+            "problemMatcher": [
+                "$node-sass"
+            ]
+        },
+        {
+            "label": "FTP",
+            "type": "shell",
+            "command": "scp -i ~/.ssh/home-key ./* jeffp2662@192.168.86.229:/var/www/html/jeffpignataro.tech/web",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
