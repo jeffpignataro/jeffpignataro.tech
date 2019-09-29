@@ -1,2 +1,2 @@
-# Personal Website
-Jeff Pignataro's personal website
+# Website
+JDP Consulting website
